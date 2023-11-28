@@ -25,7 +25,6 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  /* background-color: #9d9da4; */
 }
 
 .logo{
@@ -72,11 +71,9 @@ button:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* background-color: #9d9da4; */
-  background-color: #7ac0ec;
 }
 
-.movie-list > div {
+.movie-list > div { 
   margin: 10px;
 }
 
@@ -111,8 +108,8 @@ button:hover{
   flex-wrap: wrap;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  background-color: #ea6c42;
-  /* background-color: #5fa7d4; */
+  background-color: gray;
+ 
 
 }
 .wrapper .input-style{
