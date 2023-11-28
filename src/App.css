@@ -1,0 +1,145 @@
+
+
+.movietitle {
+  font-size: 30px;
+}
+
+.moviecard {
+  display: inline-block;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  /* background-color: #9d9da4; */
+}
+
+.logo{
+  cursor: pointer;
+  font-size: small;
+  width: 3%;
+  border-radius: 30%;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar li a{
+  transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+  color: #0088a9;
+}
+
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+.Btn{
+  box-shadow: 3px 3px 5px var(--light-gray), -1px -1px 2px var(--light-gray);
+  border: none;
+  transition: scale .2s ease;
+  user-select: none;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #9d9da4; */
+  background-color: #7ac0ec;
+}
+
+.movie-list > div {
+  margin: 10px;
+}
+
+.wrappers{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  border: none;
+  padding: 5px;
+  background: var(--honey-dew);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrappers .input-style{
+  height: 100%;
+  width: 80%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid silver;
+  background: var(--light-gray);
+}
+
+.wrapper{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  background: var(--honey-dew);
+  flex-wrap: wrap;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ea6c42;
+  /* background-color: #5fa7d4; */
+
+}
+.wrapper .input-style{
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .input-style{
+  height: 100%;
+  width: 80%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid silver;
+}
+
+.Submit{
+  height: 100%;
+  width: 20%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid silver;
+}
+
+h3{
+  width: 60%; 
+  height: 3rem; 
+  font-size: 24px; 
+  text-align: center;
+}
