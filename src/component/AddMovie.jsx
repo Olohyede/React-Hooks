@@ -6,6 +6,7 @@ const AddMovie = ({addMovie}) => {
         description: "",
         posterUrl: "",
         rating: 0,
+        trailerLink: ""
     })
 
     const handleChange = (event) => {
@@ -23,7 +24,7 @@ const AddMovie = ({addMovie}) => {
     const handleSubmit = (event) => {
         event.preventDefault()
         addMovie(movie)
-        setMovie({title: "", posterUrl: "", description: "", rating: ""})
+        setMovie({title: "", posterUrl: "", description: "", rating: "", trailerLink: ""})
     } 
 
     return(
